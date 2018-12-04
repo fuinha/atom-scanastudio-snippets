@@ -1,6 +1,9 @@
-#initial release - work in progress!
 '.source.js':
 
-  'scana':
+  'ScanaStudio object':
     'prefix': 'ScanaStudio'
     'body': 'ScanaStudio$1'
+
+  "gui_add_ch_selector":
+    "prefix": "gui_add_ch_selector"
+    "body": 'gui_add_ch_selector("${1:id}", "${2:caption}","${3:new_channel_name}");$4'
