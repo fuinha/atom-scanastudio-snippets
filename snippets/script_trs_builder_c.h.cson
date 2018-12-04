@@ -1,0 +1,26 @@
+'.source.js':
+	'S[builder_add_samples]':
+		'prefix': 'builder_add_samples'
+		'body': 'builder_add_samples(${1:k},${2:level},${3:samples});$4'
+	'S[builder_add_cycle]':
+		'prefix': 'builder_add_cycle'
+		'body': 'builder_add_cycle(${1:k},${2:float duty_cycle},${3:samples});$4'
+	'S[builder_add_cycles]':
+		'prefix': 'builder_add_cycles'
+		'body': 'builder_add_cycles(${1:k},${2:float duty_cycle},${3:samples_per_cycle},${4:cycles});$5'
+	'S[builder_add_inv_cycle]':
+		'prefix': 'builder_add_inv_cycle'
+		'body': 'builder_add_inv_cycle(${1:k},${2:float duty_cycle},${3:samples});$4'
+	'S[builder_add_inv_cycles]':
+		'prefix': 'builder_add_inv_cycles'
+		'body': 'builder_add_inv_cycles(${1:k},${2:float duty_cycle},${3:samples_per_cycle},${4:cycles});$5'
+	'S[builder_get_samples_acc]':
+		'prefix': 'builder_get_samples_acc'
+		'body': 'builder_get_samples_acc(${1:k});$2'
+	'S[builder_get_sample_rate]':
+		'prefix': 'builder_get_sample_rate'
+		'body': 'builder_get_sample_rate();$1'
+	'S[builder_get_maximum_samples_count]':
+		'prefix': 'builder_get_maximum_samples_count'
+		'body': 'builder_get_maximum_samples_count();$1'
+
