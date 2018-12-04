@@ -3,7 +3,7 @@
   "main": "./lib/scanastudio-snippets",
   "version": "0.0.0",
   "description": "ScanaStudio scripting snippets for Atom",
-  "repository": "https://github.com/zenorocha/atom-javascript-snippets",
+  "repository": "https://github.com/ikalogic/atom-scanastudio-snippets",
   "license": "GNU GPLv3",
   "engines": {
     "atom": ">0.50.0"
