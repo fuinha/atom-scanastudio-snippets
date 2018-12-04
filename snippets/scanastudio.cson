@@ -1,0 +1,6 @@
+#initial release - work in progress!
+'.source.js':
+
+  'scana':
+    'prefix': 'ScanaStudio'
+    'body': 'ScanaStudio$1'
