@@ -1,9 +1,25 @@
+#Some snippets to help ScanaStudio user to get started with a new decoder
+
 '.source.js':
 
   'ScanaStudio object':
     'prefix': 'ScanaStudio'
     'body': 'ScanaStudio$1'
 
-  "gui_add_ch_selector":
-    "prefix": "gui_add_ch_selector"
-    "body": 'gui_add_ch_selector("${1:id}", "${2:caption}","${3:new_channel_name}");$4'
+
+  'ScanaStudio meta-info':
+    'prefix': 'meta-info-template'
+    'body': """
+    <PROTOCOL_NAME> My Protocol </PROTOCOL_NAME>
+    <DESCRIPTION>
+    My protocol can decode the s%^* out of any logic signal!
+    </DESCRIPTION>
+    <VERSION> 0.0 </VERSION>
+    <AUTHOR_NAME>	Your name </AUTHOR_NAME>
+    <AUTHOR_URL> your@email.or.website </AUTHOR_URL>
+    <COPYRIGHT> Copyright 2018 your name </COPYRIGHT>
+    <LICENSE>	This code is distributed under the terms of the GNU General Public License GPLv3 </LICENSE>
+    <RELEASE_NOTES>
+    V0.0:  Initial release.
+    </RELEASE_NOTES>
+    """
