@@ -37,16 +37,16 @@
 		'body': 'gui_set_hidden_field("${1:id}","${2:value}");$3'
 	'S[report_progress]':
 		'prefix': 'report_progress'
-		'body': 'report_progress(${1:progress_percentage});$2'
+		'body': 'report_progress(${1:progress_0_to_100});$2'
 	'S[console_info_msg]':
 		'prefix': 'console_info_msg'
-		'body': 'console_info_msg("${1:msg}",${2:sample=-1});$3'
+		'body': 'console_info_msg("${1:msg}",${2:sample});$3'
 	'S[console_warning_msg]':
 		'prefix': 'console_warning_msg'
-		'body': 'console_warning_msg("${1:msg}",${2:sample=-1});$3'
+		'body': 'console_warning_msg("${1:msg}",${2:sample});$3'
 	'S[console_error_msg]':
 		'prefix': 'console_error_msg'
-		'body': 'console_error_msg("${1:msg}",${2:sample=-1});$3'
+		'body': 'console_error_msg("${1:msg}",${2:sample});$3'
 	'S[get_api_release_version]':
 		'prefix': 'get_api_release_version'
 		'body': 'get_api_release_version();$1'
