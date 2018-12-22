@@ -8,9 +8,9 @@
 	'S[dec_item_t get_pre_decoded_item]':
 		'prefix': 'dec_item_t get_pre_decoded_item'
 		'body': 'dec_item_t get_pre_decoded_item(${1:i});$2'
-	'S[report_progress]':
-		'prefix': 'report_progress'
-		'body': 'report_progress(${1:progress_percentage});$2'
+	'S[QScriptValue decoder_gui_get_value]':
+		'prefix': 'QScriptValue decoder_gui_get_value'
+		'body': 'QScriptValue decoder_gui_get_value("${1:id}");$2'
 	'S[trs_get_first]':
 		'prefix': 'trs_get_first'
 		'body': 'trs_get_first(${1:channel_index});$2'

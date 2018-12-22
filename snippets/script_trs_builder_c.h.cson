@@ -1,7 +1,7 @@
 '.source.js':
-	'S[QScriptValue builder_use_protocol]':
-		'prefix': 'QScriptValue builder_use_protocol'
-		'body': 'QScriptValue builder_use_protocol("${1:protocol_file_name}");$2'
+	'S[load_builder_module]':
+		'prefix': 'load_builder_module'
+		'body': 'load_builder_module("${1:protocol_file_name}");$2'
 	'S[builder_add_samples]':
 		'prefix': 'builder_add_samples'
 		'body': 'builder_add_samples(${1:channel_index},${2:logic_level},${3:samples_count});$4'
