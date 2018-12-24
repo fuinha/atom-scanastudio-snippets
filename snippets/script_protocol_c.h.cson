@@ -26,6 +26,12 @@
 	'S[trs_is_not_last]':
 		'prefix': 'trs_is_not_last'
 		'body': 'trs_is_not_last(${1:channel_index});$2'
+	'S[bit_sampler_init]':
+		'prefix': 'bit_sampler_init'
+		'body': 'bit_sampler_init(${1:channel_index},${2:start_sample_index},${3:samples_increment});$4'
+	'S[bit_sampler_next]':
+		'prefix': 'bit_sampler_next'
+		'body': 'bit_sampler_next(${1:channel_index});$2'
 	'S[new_dec_bit]':
 		'prefix': 'new_dec_bit'
 		'body': 'new_dec_bit(${1:channel_index},${2:start_sample},${3:end_sample});$4'
