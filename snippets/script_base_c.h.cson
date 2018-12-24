@@ -29,9 +29,6 @@
 	'S[gui_add_new_hidden_field]':
 		'prefix': 'gui_add_new_hidden_field'
 		'body': 'gui_add_new_hidden_field("${1:id}","${2:value}");$3'
-	'S[gui_add_new_hidden_field]':
-		'prefix': 'gui_add_new_hidden_field'
-		'body': 'gui_add_new_hidden_field("${1:id}",${2:value});$3'
 	'S[QScriptValue gui_get_value]':
 		'prefix': 'QScriptValue gui_get_value'
 		'body': 'QScriptValue gui_get_value("${1:id}");$2'
