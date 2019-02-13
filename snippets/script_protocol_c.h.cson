@@ -1,13 +1,7 @@
 '.source.js':
-	'S[pre_decode]':
-		'prefix': 'pre_decode'
-		'body': 'pre_decode("${1:dec_name}");$2'
-	'S[get_pre_decoded_items_count]':
-		'prefix': 'get_pre_decoded_items_count'
-		'body': 'get_pre_decoded_items_count();$1'
-	'S[dec_item_t get_pre_decoded_item]':
-		'prefix': 'dec_item_t get_pre_decoded_item'
-		'body': 'dec_item_t get_pre_decoded_item(${1:i});$2'
+	'S[QVector<dec_item_t> pre_decode]':
+		'prefix': 'QVector<dec_item_t> pre_decode'
+		'body': 'QVector<dec_item_t> pre_decode("${1:dec_name}",${2:resume});$3'
 	'S[QScriptValue decoder_gui_get_value]':
 		'prefix': 'QScriptValue decoder_gui_get_value'
 		'body': 'QScriptValue decoder_gui_get_value("${1:id}");$2'
@@ -37,7 +31,7 @@
 		'body': 'dec_item_new(${1:channel_index},${2:start_sample},${3:end_sample});$4'
 	'S[dec_item_add_sample_point]':
 		'prefix': 'dec_item_add_sample_point'
-		'body': 'dec_item_add_sample_point(${1:sample},${2:drawing});$3'
+		'body': 'dec_item_add_sample_point(${1:sample_index},"${2:drawing}");$3'
 	'S[dec_item_add_text_before_data]':
 		'prefix': 'dec_item_add_text_before_data'
 		'body': 'dec_item_add_text_before_data("${1:pre_txt}");$2'

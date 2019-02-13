@@ -14,4 +14,10 @@
 	'S[flexitrig_set_async_mode]':
 		'prefix': 'flexitrig_set_async_mode'
 		'body': 'flexitrig_set_async_mode(${1:m});$2'
+	'S[QScriptValue decoder_gui_get_value]':
+		'prefix': 'QScriptValue decoder_gui_get_value'
+		'body': 'QScriptValue decoder_gui_get_value("${1:id}");$2'
+	'S[QScriptValue flexitrig_gui_get_value]':
+		'prefix': 'QScriptValue flexitrig_gui_get_value'
+		'body': 'QScriptValue flexitrig_gui_get_value("${1:id}");$2'
 

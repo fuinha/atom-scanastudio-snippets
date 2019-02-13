@@ -20,6 +20,12 @@
 	'S[gui_add_check_box]':
 		'prefix': 'gui_add_check_box'
 		'body': 'gui_add_check_box("${1:id}","${2:caption}",${3:is_checked});$4'
+	'S[gui_add_file_save]':
+		'prefix': 'gui_add_file_save'
+		'body': 'gui_add_file_save("${1:id}","${2:caption}","${3:extension}");$4'
+	'S[gui_add_file_load]':
+		'prefix': 'gui_add_file_load'
+		'body': 'gui_add_file_load("${1:id}","${2:caption}","${3:extension}");$4'
 	'S[gui_add_separator]':
 		'prefix': 'gui_add_separator'
 		'body': 'gui_add_separator();$1'
@@ -35,6 +41,18 @@
 	'S[gui_set_hidden_field]':
 		'prefix': 'gui_set_hidden_field'
 		'body': 'gui_set_hidden_field("${1:id}","${2:value}");$3'
+	'S[file_system_open]':
+		'prefix': 'file_system_open'
+		'body': 'file_system_open("${1:file_id}","${2:mode}");$3'
+	'S[file_system_close]':
+		'prefix': 'file_system_close'
+		'body': 'file_system_close(${1:file_handle});$2'
+	'S[QVector<> file_system_read]':
+		'prefix': 'QVector<> file_system_read'
+		'body': 'QVector<> file_system_read(${1:file_handle},${2:maxlen});$3'
+	'S[file_system_write]':
+		'prefix': 'file_system_write'
+		'body': 'file_system_write(${1:file_handle},${2:QVector<> data});$3'
 	'S[report_progress]':
 		'prefix': 'report_progress'
 		'body': 'report_progress(${1:progress_0_to_100});$2'
