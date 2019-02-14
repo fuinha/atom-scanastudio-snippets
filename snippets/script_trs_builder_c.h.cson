@@ -1,22 +1,13 @@
 '.source.js':
-	'S[load_builder_module]':
-		'prefix': 'load_builder_module'
-		'body': 'load_builder_module("${1:protocol_file_name}");$2'
+	'S[load_builder_object]':
+		'prefix': 'load_builder_object'
+		'body': 'load_builder_object("${1:protocol_file_name}");$2'
 	'S[builder_add_samples]':
 		'prefix': 'builder_add_samples'
 		'body': 'builder_add_samples(${1:channel_index},${2:logic_level},${3:samples_count});$4'
-	'S[builder_add_cycle]':
-		'prefix': 'builder_add_cycle'
-		'body': 'builder_add_cycle(${1:channel_index},${2:float duty_cycle},${3:samples_count});$4'
 	'S[builder_add_cycles]':
 		'prefix': 'builder_add_cycles'
 		'body': 'builder_add_cycles(${1:channel_index},${2:float duty_cycle},${3:samples_per_cycle},${4:cycles_count});$5'
-	'S[builder_add_inv_cycle]':
-		'prefix': 'builder_add_inv_cycle'
-		'body': 'builder_add_inv_cycle(${1:channel_index},${2:float duty_cycle},${3:samples_count});$4'
-	'S[builder_add_inv_cycles]':
-		'prefix': 'builder_add_inv_cycles'
-		'body': 'builder_add_inv_cycles(${1:channel_index},${2:float duty_cycle},${3:samples_per_cycle},${4:cycles_count});$5'
 	'S[builder_get_samples_acc]':
 		'prefix': 'builder_get_samples_acc'
 		'body': 'builder_get_samples_acc(${1:channel_index});$2'

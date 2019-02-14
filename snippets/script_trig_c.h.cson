@@ -1,19 +1,10 @@
 '.source.js':
-	'S[flexitrig_clear]':
-		'prefix': 'flexitrig_clear'
-		'body': 'flexitrig_clear();$1'
 	'S[flexitrig_append]':
 		'prefix': 'flexitrig_append'
 		'body': 'flexitrig_append("${1:step_description}",${2:float t_min},${3:float t_max});$4'
-	'S[flexitrig_set_summary_text]':
-		'prefix': 'flexitrig_set_summary_text'
-		'body': 'flexitrig_set_summary_text("${1:txt}");$2'
 	'S[flexitrig_print_steps]':
 		'prefix': 'flexitrig_print_steps'
 		'body': 'flexitrig_print_steps();$1'
-	'S[flexitrig_set_async_mode]':
-		'prefix': 'flexitrig_set_async_mode'
-		'body': 'flexitrig_set_async_mode(${1:m});$2'
 	'S[QScriptValue decoder_gui_get_value]':
 		'prefix': 'QScriptValue decoder_gui_get_value'
 		'body': 'QScriptValue decoder_gui_get_value("${1:id}");$2'

@@ -1,0 +1,5 @@
+cd path-to-your-package
+apm publish minor
+where version-type can be major, minor and patch.
+
+More info: https://flight-manual.atom.io/hacking-atom/sections/publishing/
