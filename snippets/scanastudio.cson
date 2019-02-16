@@ -70,12 +70,48 @@
     }
     """
 
+  'BuilderObject template':
+    'prefix': 'template-builder-object'
+    'body': """
+    //Builder object that can be shared to other scripts
+    ScanaStudio.BuilderObject = {
+      //to be configured by the user of this object using the setter functions below
+      channel: 0,
+      sampling_rate: 1e6,
+    	build_cycle : function(parameter)
+      {
+        //Todo: write your code!
+      },
+      set_channel : function(ch)
+      {
+        this.channel = ch;
+      },
+      set_sample_rate : function(sr)
+      {
+        this.sampling_rate = sr;
+      }
+    };
+    """
+
+  'build_demo_signals() function template':
+    'prefix': 'template-demo-signals'
+    'body': """
+    //Function called to generate demo siganls (when no physical device is attached)
+    function build_demo_signals()
+    {
+      //Use the function below to get the number of samples to be built
+      var samples_to_build = ScanaStudio.builder_get_maximum_samples_count();
+      //Todo: build the demo signals
+    }
+    """
+
+
+#define SCRIPT_FUNCTION_DEMO        "build_demo_signals"
 # Work in progress
 #define SCRIPT_FUNCTION_DECODE      "decode_signals"
 #define SCRIPT_FUNCTION_BUILD       "build_signals"
 #define SCRIPT_FUNCTION_DEMO        "build_demo_signals"
 #define SCRIPT_FUNCTION_TRIGGER     "build_trigger"
-#define SCRIPT_BUILDER_OBJECT       "ScanaStudio.BuilderObject"
 
 #define SCRIPT_FUNCTION_DEC_GUI     "gui_decoder"
 #define SCRIPT_FUNCTION_TRG_GUI     "gui_trigger"
