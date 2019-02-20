@@ -32,6 +32,9 @@
 	'S[gui_add_new_tab]':
 		'prefix': 'gui_add_new_tab'
 		'body': 'gui_add_new_tab("${1:id}","${2:caption}",${3:is_selected})$4'
+	'S[gui_end_tab]':
+		'prefix': 'gui_end_tab'
+		'body': 'gui_end_tab()$1'
 	'S[gui_add_new_hidden_field]':
 		'prefix': 'gui_add_new_hidden_field'
 		'body': 'gui_add_new_hidden_field("${1:id}","${2:value}")$3'
