@@ -80,4 +80,7 @@
 	'S[get_capture_sample_rate]':
 		'prefix': 'get_capture_sample_rate'
 		'body': 'get_capture_sample_rate()$1'
+	'S[ engineering_notation]':
+		'prefix': ' engineering_notation'
+		'body': ' engineering_notation(${1:float number},${2:digits})$3'
 
