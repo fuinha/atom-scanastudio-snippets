@@ -105,6 +105,15 @@
     }
     """
 
+  'gui_trigger() function template':
+    'prefix': 'template-gui-trigger'
+    'body': """
+    //Trigger sequence GUI
+    function gui_trigger()
+    {
+      ${4://Add gui functions...}
+    }
+    """
 
 #define SCRIPT_FUNCTION_DEMO        "build_demo_signals"
 # Work in progress
