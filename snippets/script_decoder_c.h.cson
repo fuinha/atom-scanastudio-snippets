@@ -40,7 +40,7 @@
 		'body': 'hex_view_add_byte(${1:channel_index},${2:start_sample},${3:end_sample},${4:data_byte})$5'
 	'S[packet_view_add_packet]':
 		'prefix': 'packet_view_add_packet'
-		'body': 'packet_view_add_packet(${1:ch},${2:root},${3:start_sample},${4:end_sample},"${5:title}","${6:content}","${7:title_bg_html_color}","${8:content_bg_html_color}")$9'
+		'body': 'packet_view_add_packet(${1:root},${2:ch},${3:start_sample},${4:end_sample},"${5:title}","${6:content}","${7:title_bg_html_color}","${8:content_bg_html_color}")$9'
 	'S[abort_is_requested]':
 		'prefix': 'abort_is_requested'
 		'body': 'abort_is_requested()$1'
