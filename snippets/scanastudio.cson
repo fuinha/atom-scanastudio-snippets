@@ -26,14 +26,14 @@
     */
     """
 
-  'Decode_signals() function template':
+  'on_decode_signals() function template':
     'prefix': 'template-decode-signals'
     'body': """
     //Global variables
     var sampling_rate;
     var state_machine;
 
-    function decode_signals(resume)
+    function on_decode_signals(resume)
     {
       if (!resume) //If resume == false, it's the first call to this function.
       {
@@ -58,11 +58,11 @@
     }
     """
 
-  'gui_decoder() function template':
+  'on_draw_gui_decoder() function template':
     'prefix': 'template-gui-decoder'
     'body': """
     //Decoder GUI
-    function gui_decoder()
+    function on_draw_gui_decoder()
     {
       //Define decoder configuration GUI
       ScanaStudio.gui_add_ch_selector("${1:id}","${2:caption}","${3:new_channel_name}");
@@ -93,11 +93,11 @@
     };
     """
 
-  'build_demo_signals() function template':
+  'on_build_demo_signals() function template':
     'prefix': 'template-demo-signals'
     'body': """
     //Function called to generate demo siganls (when no physical device is attached)
-    function build_demo_signals()
+    function on_build_demo_signals()
     {
       //Use the function below to get the number of samples to be built
       var samples_to_build = ScanaStudio.builder_get_maximum_samples_count();
@@ -105,11 +105,23 @@
     }
     """
 
-  'gui_trigger() function template':
+  'on_build_signals() function template':
+    'prefix': 'template-build-signals'
+    'body': """
+    //Function called to build siganls (to be generate by capable device)
+    function on_build_signals()
+    {
+      //Use the function below to get the number of samples to be built
+      var samples_to_build = ScanaStudio.builder_get_maximum_samples_count();
+      //Todo: build the signals
+    }
+    """
+
+  'on_draw_gui_trigger() function template':
     'prefix': 'template-gui-trigger'
     'body': """
     //Trigger sequence GUI
-    function gui_trigger()
+    function on_draw_gui_trigger()
     {
       ${4://Add gui functions...}
     }
