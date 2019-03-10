@@ -37,7 +37,7 @@
 		'body': 'gui_add_file_load("${1:id}","${2:caption}","${3:extension}")$4'
 	'S[gui_add_separator]':
 		'prefix': 'gui_add_separator'
-		'body': 'gui_add_separator("${1:title = ""}")$2'
+		'body': 'gui_add_separator("${1:title}")$2'
 	'S[gui_add_new_tab]':
 		'prefix': 'gui_add_new_tab'
 		'body': 'gui_add_new_tab("${1:id}","${2:caption}",${3:is_selected})$4'
