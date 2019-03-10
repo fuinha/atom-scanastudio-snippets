@@ -127,7 +127,7 @@
     }
     """
 
-    'on_draw_gui_signal_builder() function template':
+  'on_draw_gui_signal_builder() function template':
     'prefix': 'template-gui-signal-builder'
     'body': """
     //Signal builder GUI
