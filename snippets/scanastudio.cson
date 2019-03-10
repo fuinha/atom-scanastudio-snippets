@@ -127,6 +127,16 @@
     }
     """
 
+    'on_draw_gui_signal_builder() function template':
+    'prefix': 'template-gui-signal-builder'
+    'body': """
+    //Signal builder GUI
+    function on_draw_gui_signal_builder()
+    {
+      ${4://Add gui functions...}
+    }
+    """
+
 #define SCRIPT_FUNCTION_DEMO        "build_demo_signals"
 # Work in progress
 #define SCRIPT_FUNCTION_DECODE      "decode_signals"

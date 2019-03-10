@@ -1,7 +1,7 @@
 '.source.js':
 	'S[load_builder_object]':
 		'prefix': 'load_builder_object'
-		'body': 'load_builder_object("${1:protocol_file_name}")$2'
+		'body': 'load_builder_object("${1:script_file_name}")$2'
 	'S[builder_add_samples]':
 		'prefix': 'builder_add_samples'
 		'body': 'builder_add_samples(${1:channel_index},${2:logic_level},${3:samples_count})$4'

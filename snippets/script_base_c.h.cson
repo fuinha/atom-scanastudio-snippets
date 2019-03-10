@@ -1,4 +1,13 @@
 '.source.js':
+	'S[gui_import_from_decoder]':
+		'prefix': 'gui_import_from_decoder'
+		'body': 'gui_import_from_decoder("${1:script_file_name}")$2'
+	'S[gui_import_from_trigger]':
+		'prefix': 'gui_import_from_trigger'
+		'body': 'gui_import_from_trigger("${1:script_file_name}")$2'
+	'S[gui_import_from_builder]':
+		'prefix': 'gui_import_from_builder'
+		'body': 'gui_import_from_builder("${1:script_file_name}")$2'
 	'S[gui_add_ch_selector]':
 		'prefix': 'gui_add_ch_selector'
 		'body': 'gui_add_ch_selector("${1:id}","${2:caption}","${3:new_channel_name}")$4'
@@ -16,7 +25,7 @@
 		'body': 'gui_add_text_input("${1:id}","${2:caption}","${3:default_value}")$4'
 	'S[gui_add_info_label]':
 		'prefix': 'gui_add_info_label'
-		'body': 'gui_add_info_label("${1:html_text}")$2'
+		'body': 'gui_add_info_label("${1:text}")$2'
 	'S[gui_add_check_box]':
 		'prefix': 'gui_add_check_box'
 		'body': 'gui_add_check_box("${1:id}","${2:caption}",${3:is_checked})$4'
@@ -28,7 +37,7 @@
 		'body': 'gui_add_file_load("${1:id}","${2:caption}","${3:extension}")$4'
 	'S[gui_add_separator]':
 		'prefix': 'gui_add_separator'
-		'body': 'gui_add_separator()$1'
+		'body': 'gui_add_separator("${1:title = ""}")$2'
 	'S[gui_add_new_tab]':
 		'prefix': 'gui_add_new_tab'
 		'body': 'gui_add_new_tab("${1:id}","${2:caption}",${3:is_selected})$4'
@@ -56,6 +65,9 @@
 	'S[file_system_write]':
 		'prefix': 'file_system_write'
 		'body': 'file_system_write(${1:file_handle},${2:QVector<> data})$3'
+	'S[abort_is_requested]':
+		'prefix': 'abort_is_requested'
+		'body': 'abort_is_requested()$1'
 	'S[report_progress]':
 		'prefix': 'report_progress'
 		'body': 'report_progress(${1:progress_0_to_100})$2'
