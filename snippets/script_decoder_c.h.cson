@@ -8,9 +8,9 @@
 	'S[double get_available_samples]':
 		'prefix': 'double get_available_samples'
 		'body': 'double get_available_samples(${1:channel_index})$2'
-	'S[QScriptValue decoder_gui_get_value]':
-		'prefix': 'QScriptValue decoder_gui_get_value'
-		'body': 'QScriptValue decoder_gui_get_value("${1:id}")$2'
+	'S[decoder_gui_get_value]':
+		'prefix': 'decoder_gui_get_value'
+		'body': 'decoder_gui_get_value("${1:id}")$2'
 	'S[trs_reset]':
 		'prefix': 'trs_reset'
 		'body': 'trs_reset(${1:channel_index})$2'

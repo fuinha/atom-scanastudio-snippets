@@ -5,10 +5,10 @@
 	'S[flexitrig_print_steps]':
 		'prefix': 'flexitrig_print_steps'
 		'body': 'flexitrig_print_steps()$1'
-	'S[QScriptValue decoder_gui_get_value]':
-		'prefix': 'QScriptValue decoder_gui_get_value'
-		'body': 'QScriptValue decoder_gui_get_value("${1:id}")$2'
-	'S[QScriptValue flexitrig_gui_get_value]':
-		'prefix': 'QScriptValue flexitrig_gui_get_value'
-		'body': 'QScriptValue flexitrig_gui_get_value("${1:id}")$2'
+	'S[decoder_gui_get_value]':
+		'prefix': 'decoder_gui_get_value'
+		'body': 'decoder_gui_get_value("${1:id}")$2'
+	'S[flexitrig_gui_get_value]':
+		'prefix': 'flexitrig_gui_get_value'
+		'body': 'flexitrig_gui_get_value("${1:id}")$2'
 
