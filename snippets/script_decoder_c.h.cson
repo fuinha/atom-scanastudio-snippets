@@ -5,6 +5,9 @@
 	'S[is_pre_decoding]':
 		'prefix': 'is_pre_decoding'
 		'body': 'is_pre_decoding()$1'
+	'S[double get_available_samples]':
+		'prefix': 'double get_available_samples'
+		'body': 'double get_available_samples(${1:channel_index})$2'
 	'S[QScriptValue decoder_gui_get_value]':
 		'prefix': 'QScriptValue decoder_gui_get_value'
 		'body': 'QScriptValue decoder_gui_get_value("${1:id}")$2'
@@ -38,6 +41,9 @@
 	'S[dec_item_add_content]':
 		'prefix': 'dec_item_add_content'
 		'body': 'dec_item_add_content("${1:content}")$2'
+	'S[dec_item_emphasize]':
+		'prefix': 'dec_item_emphasize'
+		'body': 'dec_item_emphasize()$1'
 	'S[hex_view_add_byte]':
 		'prefix': 'hex_view_add_byte'
 		'body': 'hex_view_add_byte(${1:channel_index},${2:start_sample},${3:end_sample},${4:data_byte})$5'
