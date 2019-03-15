@@ -44,16 +44,19 @@
           ${1://...}
       }
 
-      switch (state_machine)
+      while (ScanaStudio.abort_is_requested() == false)
       {
-        case 0:
-          //Todo...
-          break;
-        case 1:
-          //Todo...
-          break;
-        default:
-          //Todo...
+        switch (state_machine)
+        {
+          case 0:
+            //Todo...
+            break;
+          case 1:
+            //Todo...
+            break;
+          default:
+            //Todo...
+        }
       }
     }
     """
