@@ -13,7 +13,7 @@
 		'body': 'gui_add_ch_selector("${1:id}","${2:caption}","${3:new_channel_name}")$4'
 	'S[gui_add_engineering_form_input_box]':
 		'prefix': 'gui_add_engineering_form_input_box'
-		'body': 'gui_add_engineering_form_input_box("${1:id}","${2:caption}",${3:double max_value},${4:double min_value},"${5:default_value}","${6:unit}")$7'
+		'body': 'gui_add_engineering_form_input_box("${1:id}","${2:caption}",${3:max_value},${4:min_value},"${5:default_value}","${6:unit}")$7'
 	'S[gui_add_combo_box]':
 		'prefix': 'gui_add_combo_box'
 		'body': 'gui_add_combo_box("${1:id}","${2:caption}")$3'

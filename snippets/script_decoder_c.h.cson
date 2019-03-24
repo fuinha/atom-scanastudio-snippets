@@ -5,9 +5,9 @@
 	'S[is_pre_decoding]':
 		'prefix': 'is_pre_decoding'
 		'body': 'is_pre_decoding()$1'
-	'S[double get_available_samples]':
-		'prefix': 'double get_available_samples'
-		'body': 'double get_available_samples(${1:channel_index})$2'
+	'S[get_available_samples]':
+		'prefix': 'get_available_samples'
+		'body': 'get_available_samples(${1:channel_index})$2'
 	'S[decoder_gui_get_value]':
 		'prefix': 'decoder_gui_get_value'
 		'body': 'decoder_gui_get_value("${1:id}")$2'
