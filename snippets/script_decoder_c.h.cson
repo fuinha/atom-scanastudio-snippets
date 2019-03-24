@@ -1,7 +1,7 @@
 '.source.js':
-	'S[QVector<dec_item_t> pre_decode]':
-		'prefix': 'QVector<dec_item_t> pre_decode'
-		'body': 'QVector<dec_item_t> pre_decode("${1:dec_name}",${2:resume})$3'
+	'S[pre_decode]':
+		'prefix': 'pre_decode'
+		'body': 'pre_decode("${1:dec_name}",${2:resume})$3'
 	'S[is_pre_decoding]':
 		'prefix': 'is_pre_decoding'
 		'body': 'is_pre_decoding()$1'

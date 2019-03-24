@@ -11,6 +11,9 @@
 	'S[gui_add_ch_selector]':
 		'prefix': 'gui_add_ch_selector'
 		'body': 'gui_add_ch_selector("${1:id}","${2:caption}","${3:new_channel_name}")$4'
+	'S[gui_add_engineering_form_input_box]':
+		'prefix': 'gui_add_engineering_form_input_box'
+		'body': 'gui_add_engineering_form_input_box("${1:id}","${2:caption}",${3:double max_value},${4:double min_value},"${5:default_value}","${6:unit}")$7'
 	'S[gui_add_combo_box]':
 		'prefix': 'gui_add_combo_box'
 		'body': 'gui_add_combo_box("${1:id}","${2:caption}")$3'
@@ -37,7 +40,7 @@
 		'body': 'gui_add_file_load("${1:id}","${2:caption}","${3:extension}")$4'
 	'S[gui_add_separator]':
 		'prefix': 'gui_add_separator'
-		'body': 'gui_add_separator("${1:title}")$2'
+		'body': 'gui_add_separator("${1:title = ""}")$2'
 	'S[gui_add_new_tab]':
 		'prefix': 'gui_add_new_tab'
 		'body': 'gui_add_new_tab("${1:id}","${2:caption}",${3:is_selected})$4'
@@ -59,12 +62,12 @@
 	'S[file_system_close]':
 		'prefix': 'file_system_close'
 		'body': 'file_system_close(${1:file_handle})$2'
-	'S[QVector<> file_system_read]':
-		'prefix': 'QVector<> file_system_read'
-		'body': 'QVector<> file_system_read(${1:file_handle},${2:maxlen})$3'
+	'S[file_system_read]':
+		'prefix': 'file_system_read'
+		'body': 'file_system_read(${1:file_handle},${2:maxlen})$3'
 	'S[file_system_write]':
 		'prefix': 'file_system_write'
-		'body': 'file_system_write(${1:file_handle},${2:QVector<> data})$3'
+		'body': 'file_system_write(${1:file_handle},${2:data})$3'
 	'S[abort_is_requested]':
 		'prefix': 'abort_is_requested'
 		'body': 'abort_is_requested()$1'
