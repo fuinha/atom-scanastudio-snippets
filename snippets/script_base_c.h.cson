@@ -47,9 +47,18 @@
 	'S[gui_end_tab]':
 		'prefix': 'gui_end_tab'
 		'body': 'gui_end_tab()$1'
-	'S[gui_add_new_hidden_field]':
-		'prefix': 'gui_add_new_hidden_field'
-		'body': 'gui_add_new_hidden_field("${1:id}","${2:value}")$3'
+	'S[gui_add_new_selectable_containers_group]':
+		'prefix': 'gui_add_new_selectable_containers_group'
+		'body': 'gui_add_new_selectable_containers_group("${1:id}","${2:caption}")$3'
+	'S[gui_end_selectable_containers_group]':
+		'prefix': 'gui_end_selectable_containers_group'
+		'body': 'gui_end_selectable_containers_group()$1'
+	'S[gui_add_new_container]':
+		'prefix': 'gui_add_new_container'
+		'body': 'gui_add_new_container("${1:id}","${2:caption}",${3:is_selected})$4'
+	'S[gui_add_hidden_field]':
+		'prefix': 'gui_add_hidden_field'
+		'body': 'gui_add_hidden_field("${1:id}","${2:value}")$3'
 	'S[gui_get_value]':
 		'prefix': 'gui_get_value'
 		'body': 'gui_get_value("${1:id}")$2'
@@ -95,6 +104,9 @@
 	'S[get_capture_sample_rate]':
 		'prefix': 'get_capture_sample_rate'
 		'body': 'get_capture_sample_rate()$1'
+	'S[set_script_name]':
+		'prefix': 'set_script_name'
+		'body': 'set_script_name("${1:script_name}")$2'
 	'S[engineering_notation]':
 		'prefix': 'engineering_notation'
 		'body': 'engineering_notation(${1:float number},${2:digits})$3'
