@@ -1,7 +1,7 @@
 {
   "name": "scanastudio-snippets",
   "main": "./lib/scanastudio-snippets",
-  "version": "0.9.25",
+  "version": "0.9.26",
   "description": "ScanaStudio scripting snippets for Atom",
   "repository": "https://github.com/ikalogic/atom-scanastudio-snippets",
   "license": "GNU LGPLv3",
