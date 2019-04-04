@@ -73,6 +73,15 @@
       ${4://Add other gui functions...}
     }
     """
+  'on_eval_gui_decoder() function template':
+    'prefix': 'template-eval-gui-decoder'
+    'body': """
+    //Evaluate decoder GUI
+    function on_eval_gui_decoder()
+    {
+      return "" //All good.
+    }
+    """
 
   'BuilderObject template':
     'prefix': 'template-builder-object'
@@ -131,6 +140,16 @@
     }
     """
 
+  'on_eval_gui_trigger() function template':
+    'prefix': 'template-eval-gui-trigger'
+    'body': """
+    //Evaluate trigger GUI
+    function on_eval_gui_trigger()
+    {
+      return "" //All good.
+    }
+    """
+
   'on_draw_gui_signal_builder() function template':
     'prefix': 'template-gui-signal-builder'
     'body': """
@@ -140,6 +159,17 @@
       ${4://Add gui functions...}
     }
     """
+
+  'on_eval_gui_signal_builder() function template':
+    'prefix': 'template-eval-gui-signal-builder'
+    'body': """
+    //Evaluate signal builder GUI
+    function on_eval_gui_signal_builder()
+    {
+      return "" //All good.
+    }
+    """
+
 
 #define SCRIPT_FUNCTION_DEMO        "build_demo_signals"
 # Work in progress
