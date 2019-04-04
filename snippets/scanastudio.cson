@@ -18,7 +18,7 @@
     <VERSION> 0.0 </VERSION>
     <AUTHOR_NAME>	${3:Your name} </AUTHOR_NAME>
     <AUTHOR_URL> ${4:your@email.or.website} </AUTHOR_URL>
-	<AUTHOR_URL> ${5:https://github.com/ikalogic/ScanaStudio-scripts-v3/wiki} </AUTHOR_URL>
+    <HELP_URL> ${5:https://github.com/ikalogic/ScanaStudio-scripts-v3/wiki} </HELP_URL>
     <COPYRIGHT> Copyright ${3:your name} </COPYRIGHT>
     <LICENSE>	This code is distributed under the terms of the GNU General Public License GPLv3 </LICENSE>
     <RELEASE_NOTES>
