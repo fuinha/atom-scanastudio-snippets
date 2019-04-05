@@ -71,12 +71,18 @@
 	'S[file_system_close]':
 		'prefix': 'file_system_close'
 		'body': 'file_system_close(${1:file_handle})$2'
-	'S[file_system_read]':
-		'prefix': 'file_system_read'
-		'body': 'file_system_read(${1:file_handle},${2:maxlen})$3'
-	'S[file_system_write]':
-		'prefix': 'file_system_write'
-		'body': 'file_system_write(${1:file_handle},${2:data})$3'
+	'S[file_system_read_binary]':
+		'prefix': 'file_system_read_binary'
+		'body': 'file_system_read_binary(${1:file_handle})$2'
+	'S[file_system_read_text]':
+		'prefix': 'file_system_read_text'
+		'body': 'file_system_read_text(${1:file_handle},"${2:encoding}")$3'
+	'S[file_system_write_binary]':
+		'prefix': 'file_system_write_binary'
+		'body': 'file_system_write_binary(${1:file_handle},${2:data})$3'
+	'S[file_system_write_text]':
+		'prefix': 'file_system_write_text'
+		'body': 'file_system_write_text(${1:file_handle},"${2:text}","${3:encoding}")$4'
 	'S[abort_is_requested]':
 		'prefix': 'abort_is_requested'
 		'body': 'abort_is_requested()$1'
