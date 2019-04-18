@@ -43,7 +43,7 @@
 		'body': 'gui_add_separator("${1:title}")$2'
 	'S[gui_add_new_tab]':
 		'prefix': 'gui_add_new_tab'
-		'body': 'gui_add_new_tab("${1:id}","${2:caption}",${3:is_selected})$4'
+		'body': 'gui_add_new_tab("${1:caption}",${2:is_expanded})$3'
 	'S[gui_end_tab]':
 		'prefix': 'gui_end_tab'
 		'body': 'gui_end_tab()$1'
@@ -55,7 +55,10 @@
 		'body': 'gui_end_selectable_containers_group()$1'
 	'S[gui_add_new_container]':
 		'prefix': 'gui_add_new_container'
-		'body': 'gui_add_new_container("${1:id}","${2:caption}",${3:is_selected})$4'
+		'body': 'gui_add_new_container("${1:caption}",${2:is_selected})$3'
+	'S[gui_end_container]':
+		'prefix': 'gui_end_container'
+		'body': 'gui_end_container()$1'
 	'S[gui_add_hidden_field]':
 		'prefix': 'gui_add_hidden_field'
 		'body': 'gui_add_hidden_field("${1:id}","${2:value}")$3'
