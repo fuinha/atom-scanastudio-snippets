@@ -56,4 +56,7 @@
 	'S[packet_view_add_packet]':
 		'prefix': 'packet_view_add_packet'
 		'body': 'packet_view_add_packet(${1:root},${2:ch},${3:start_sample},${4:end_sample},"${5:title}","${6:content}","${7:title_bg_html_color}","${8:content_bg_html_color}")$9'
+	'S[get_channel_color]':
+		'prefix': 'get_channel_color'
+		'body': 'get_channel_color(${1:channel_index})$2'
 
