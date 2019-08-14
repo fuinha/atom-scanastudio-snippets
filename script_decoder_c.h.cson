@@ -53,6 +53,9 @@
 	'S[dec_item_emphasize_error]':
 		'prefix': 'dec_item_emphasize_error'
 		'body': 'dec_item_emphasize_error()$1'
+	'S[set_comment]':
+		'prefix': 'set_comment'
+		'body': 'set_comment("${1:comment}")$2'
 	'S[hex_view_add_byte]':
 		'prefix': 'hex_view_add_byte'
 		'body': 'hex_view_add_byte(${1:channel_index},${2:start_sample},${3:end_sample},${4:data_byte})$5'
