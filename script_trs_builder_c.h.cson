@@ -1,0 +1,20 @@
+'.source.js':
+	'S[load_builder_object]':
+		'prefix': 'load_builder_object'
+		'body': 'load_builder_object("${1:script_file_name}")$2'
+	'S[builder_add_samples]':
+		'prefix': 'builder_add_samples'
+		'body': 'builder_add_samples(${1:channel_index},${2:logic_level},${3:samples_count})$4'
+	'S[builder_add_cycles]':
+		'prefix': 'builder_add_cycles'
+		'body': 'builder_add_cycles(${1:channel_index},${2:float duty_cycle},${3:samples_per_cycle},${4:cycles_count})$5'
+	'S[builder_get_samples_acc]':
+		'prefix': 'builder_get_samples_acc'
+		'body': 'builder_get_samples_acc(${1:channel_index})$2'
+	'S[builder_get_sample_rate]':
+		'prefix': 'builder_get_sample_rate'
+		'body': 'builder_get_sample_rate()$1'
+	'S[builder_get_maximum_samples_count]':
+		'prefix': 'builder_get_maximum_samples_count'
+		'body': 'builder_get_maximum_samples_count()$1'
+
