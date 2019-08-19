@@ -144,6 +144,17 @@
     }
     """
 
+  'on_build_trigger() function template':
+    'prefix': 'template-build-trigger-sequence'
+    'body': """
+    //Build trigger sequence
+    function on_build_trigger()
+    {
+      //Add trigger steps here...
+    }
+    """
+
+
   'on_draw_gui_signal_builder() function template':
     'prefix': 'template-gui-signal-builder'
     'body': """
