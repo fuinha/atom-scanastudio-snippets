@@ -88,20 +88,14 @@
     'body': """
     //Builder object that can be shared to other scripts
     ScanaStudio.BuilderObject = {
-      //to be configured by the user of this object using the setter functions below
-      channel: 0,
-      sampling_rate: 1e6,
     	build_cycle : function(parameter)
       {
         //Todo: write your code!
       },
-      set_channel : function(ch)
+      configure : function(sample_rate,channel)
       {
-        this.channel = ch;
-      },
-      set_sample_rate : function(sr)
-      {
-        this.sampling_rate = sr;
+        this.sampling_rate = sample_rate;
+    		this.channel = channel
       }
     };
     """
