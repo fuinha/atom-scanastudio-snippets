@@ -1,0 +1,22 @@
+[
+  {
+    "text":"PacketColors",
+    "prefix":"ScanaStudio.",
+    "description":"Standardized colors for ScanaStudio packets"
+  },
+  {
+    "text":"Wrap|Head|Preamble|Data|Misc|Check|Error",
+    "prefix":"ScanaStudio.PacketColors.",
+    "description":"Standardized colors for ScanaStudio packets types"
+  },
+  {
+    "text":"Title",
+    "prefix":"ScanaStudio.PacketColors.Wrap|Head|Preamble|Data|Misc|Check|Error.",
+    "description":"Standardized color for packet title"
+  },
+  {
+    "text":"Content",
+    "prefix":"ScanaStudio.PacketColors.Wrap|Head|Preamble|Data|Misc|Check|Error.",
+    "description":"Standardized color for packet content"
+  }
+]

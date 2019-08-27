@@ -1,0 +1,491 @@
+[
+	{
+		 "text": "gui_import_from_decoder",
+		 "context":"Global",
+		 "snippet": "gui_import_from_decoder(\"${1:script_file_name}\")$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Import content of GUI from another decoder"
+	},
+	{
+		 "text": "gui_import_from_trigger",
+		 "context":"Global",
+		 "snippet": "gui_import_from_trigger(\"${1:script_file_name}\")$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Import content of GUI from another trigger sequence generator"
+	},
+	{
+		 "text": "gui_import_from_builder",
+		 "context":"Global",
+		 "snippet": "gui_import_from_builder(\"${1:script_file_name}\")$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Import content of GUI from another signal builder"
+	},
+	{
+		 "text": "gui_add_ch_selector",
+		 "context":"Global",
+		 "snippet": "gui_add_ch_selector(\"${1:id}\",\"${2:caption}\",\"${3:new_channel_name}\")$4",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add channel selector GUI element"
+	},
+	{
+		 "text": "gui_add_engineering_form_input_box",
+		 "context":"Global",
+		 "snippet": "gui_add_engineering_form_input_box(\"${1:id}\",\"${2:caption}\",${3:min_value},${4:max_value},${5:default_value},\"${6:unit}\")$7",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add engineering form input box GUI element (using units and prefixes, e.g. 15us or 10MHz)"
+	},
+	{
+		 "text": "gui_add_combo_box",
+		 "context":"Global",
+		 "snippet": "gui_add_combo_box(\"${1:id}\",\"${2:caption}\")$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add combo box GUI element"
+	},
+	{
+		 "text": "gui_add_item_to_combo_box",
+		 "context":"Global",
+		 "snippet": "gui_add_item_to_combo_box(\"${1:item_txt}\",${2:is_selected})$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add items to the last (previously added) combo box"
+	},
+	{
+		 "text": "gui_add_baud_selector",
+		 "context":"Global",
+		 "snippet": "gui_add_baud_selector(\"${1:id}\",\"${2:caption}\",${3:default_value})$4",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add BAUD rate selector GUI element with automatic BAUD rate detection feature"
+	},
+	{
+		 "text": "gui_add_text_input",
+		 "context":"Global",
+		 "snippet": "gui_add_text_input(\"${1:id}\",\"${2:caption}\",\"${3:default_value}\")$4",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add text input GUI element"
+	},
+	{
+		 "text": "gui_add_info_label",
+		 "context":"Global",
+		 "snippet": "gui_add_info_label(\"${1:text}\")$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add information label to GUI (cannot be edited)"
+	},
+	{
+		 "text": "gui_add_check_box",
+		 "context":"Global",
+		 "snippet": "gui_add_check_box(\"${1:id}\",\"${2:caption}\",${3:is_checked})$4",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add checkbox GUI element"
+	},
+	{
+		 "text": "gui_add_file_save",
+		 "context":"Global",
+		 "snippet": "gui_add_file_save(\"${1:id}\",\"${2:caption}\",\"${3:extension}\")$4",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add file saving GUI element (allowing user to browse a file for write access)"
+	},
+	{
+		 "text": "gui_add_file_load",
+		 "context":"Global",
+		 "snippet": "gui_add_file_load(\"${1:id}\",\"${2:caption}\",\"${3:extension}\")$4",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add file loading GUI element (allowing user to browse a file for read access)"
+	},
+	{
+		 "text": "gui_add_separator",
+		 "context":"Global",
+		 "snippet": "gui_add_separator(\"${1:title}\")$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add seperator GUI element"
+	},
+	{
+		 "text": "gui_add_new_tab",
+		 "context":"Global",
+		 "snippet": "gui_add_new_tab(\"${1:caption}\",${2:is_expanded})$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add a new accordion tab GUI element (that can be expanded or collapsed). Regular GUI elements can be added in that tab."
+	},
+	{
+		 "text": "gui_end_tab",
+		 "context":"Global",
+		 "snippet": "gui_end_tab()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "End the accordion tab GUI element that was previsouly created"
+	},
+	{
+		 "text": "gui_add_new_selectable_containers_group",
+		 "context":"Global",
+		 "snippet": "gui_add_new_selectable_containers_group(\"${1:id}\",\"${2:caption}\")$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add a new group of containers. containers group are different that tab in a sense that the selected container can be retrieved."
+	},
+	{
+		 "text": "gui_end_selectable_containers_group",
+		 "context":"Global",
+		 "snippet": "gui_end_selectable_containers_group()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "End the GUI container that was previously created"
+	},
+	{
+		 "text": "gui_add_new_container",
+		 "context":"Global",
+		 "snippet": "gui_add_new_container(\"${1:caption}\",${2:is_selected})$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add a new container to a previously created container group. Regular GUI elements can be added in that container."
+	},
+	{
+		 "text": "gui_end_container",
+		 "context":"Global",
+		 "snippet": "gui_end_container()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "End the container that was previously created"
+	},
+	{
+		 "text": "gui_add_hidden_field",
+		 "context":"Global",
+		 "snippet": "gui_add_hidden_field(\"${1:id}\",\"${2:value}\")$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Add hidden GUI field (only used to pass variable to sub-decoders)"
+	},
+	{
+		 "text": "gui_get_value",
+		 "context":"Global",
+		 "snippet": "gui_get_value(\"${1:id}\")$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Retrieve the value of a GUI element by its ID"
+	},
+	{
+		 "text": "gui_set_hidden_field",
+		 "context":"Global",
+		 "snippet": "gui_set_hidden_field(\"${1:id}\",\"${2:value}\")$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/gui-related-functions/",
+		 "description": "Set/change the value of a hidden field"
+	},
+	{
+		 "text": "file_system_open",
+		 "context":"Global",
+		 "snippet": "file_system_open(\"${1:file_id}\",\"${2:mode}\")$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/scripting-file-system/",
+		 "description": "Open a file (knowing the GUI file load/save element ID)"
+	},
+	{
+		 "text": "file_system_close",
+		 "context":"Global",
+		 "snippet": "file_system_close(${1:file_handle})$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/scripting-file-system/",
+		 "description": "Close a file that was previously open"
+	},
+	{
+		 "text": "file_system_read_binary",
+		 "context":"Global",
+		 "snippet": "file_system_read_binary(${1:file_handle})$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/scripting-file-system/",
+		 "description": "Read the content of a file in binary format (returing an array of bytes)"
+	},
+	{
+		 "text": "file_system_read_text",
+		 "context":"Global",
+		 "snippet": "file_system_read_text(${1:file_handle},\"${2:encoding}\")$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/scripting-file-system/",
+		 "description": "Read the content of a file in ASCII format"
+	},
+	{
+		 "text": "file_system_write_binary",
+		 "context":"Global",
+		 "snippet": "file_system_write_binary(${1:file_handle},${2:data})$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/scripting-file-system/",
+		 "description": "Write to a file in binary format (write an array of bytes)"
+	},
+	{
+		 "text": "file_system_write_text",
+		 "context":"Global",
+		 "snippet": "file_system_write_text(${1:file_handle},\"${2:text}\",\"${3:encoding}\")$4",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/scripting-file-system/",
+		 "description": "Write to a file in ASCII format"
+	},
+	{
+		 "text": "abort_is_requested",
+		 "context":"Global",
+		 "snippet": "abort_is_requested()$1",
+		 "description": "Returns true if the script should abort"
+	},
+	{
+		 "text": "report_progress",
+		 "context":"Global",
+		 "snippet": "report_progress(${1:progress_0_to_100})$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/ScanaStudio-script-utilities/",
+		 "description": "Use this function to report the progress of the current task"
+	},
+	{
+		 "text": "console_info_msg",
+		 "context":"Global",
+		 "snippet": "console_info_msg(\"${1:msg}\",${2:sample})$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/ScanaStudio-script-utilities/",
+		 "description": "Write information text to ScanaStudio console"
+	},
+	{
+		 "text": "console_warning_msg",
+		 "context":"Global",
+		 "snippet": "console_warning_msg(\"${1:msg}\",${2:sample})$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/ScanaStudio-script-utilities/",
+		 "description": "Write warning message to ScanaStudio console"
+	},
+	{
+		 "text": "console_error_msg",
+		 "context":"Global",
+		 "snippet": "console_error_msg(\"${1:msg}\",${2:sample})$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/ScanaStudio-script-utilities/",
+		 "description": "Write error message to ScanaStudio console"
+	},
+	{
+		 "text": "get_api_version",
+		 "context":"Global",
+		 "snippet": "get_api_version()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/ScanaStudio-script-utilities/",
+		 "description": "Returns the current version of ScanaStudio scripting API"
+	},
+	{
+		 "text": "get_device_name",
+		 "context":"Global",
+		 "snippet": "get_device_name()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/ScanaStudio-script-utilities/",
+		 "description": "Returns the name of the Logic Analyzer device attached to the ScanaStudio workspace"
+	},
+	{
+		 "text": "get_device_channels_count",
+		 "context":"Global",
+		 "snippet": "get_device_channels_count()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/ScanaStudio-script-utilities/",
+		 "description": "Returns the number of channels for the device attached to the ScanaStudio workspace"
+	},
+	{
+		 "text": "get_capture_sample_rate",
+		 "context":"Global",
+		 "snippet": "get_capture_sample_rate()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/ScanaStudio-script-utilities/",
+		 "description": "Returns the the sampling rate that was used to capture signals."
+	},
+	{
+		 "text": "set_script_instance_name",
+		 "context":"Global",
+		 "snippet": "set_script_instance_name(\"${1:script_name}\")$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/ScanaStudio-script-utilities/",
+		 "description": "Sets the unique instance name for that script in current context."
+	},
+	{
+		 "text": "engineering_notation",
+		 "context":"Global",
+		 "snippet": "engineering_notation(${1:number},${2:digits})$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/ScanaStudio-script-utilities/",
+		 "description": "Convert a floating number to engineering notation, e.g. convert 0.01 to 10m."
+	},
+	{
+		 "text": "pre_decode",
+		 "context":"Decoder",
+		 "snippet": "pre_decode(\"${1:dec_name}\",${2:resume})$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/nested-protocol-decoder/",
+		 "description": "Launches a low level decoder and get the result of decoding when its done. This is a blocking function."
+	},
+	{
+		 "text": "is_pre_decoding",
+		 "context":"Decoder",
+		 "snippet": "is_pre_decoding()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/nested-protocol-decoder/",
+		 "description": "Returns true if the script is currently being run by another script"
+	},
+	{
+		 "text": "get_available_samples",
+		 "context":"Decoder",
+		 "snippet": "get_available_samples(${1:channel_index})$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Returns the total number of samples currently available (useful when decoding data on the fly)"
+	},
+	{
+		 "text": "trs_reset",
+		 "context":"Decoder",
+		 "snippet": "trs_reset(${1:channel_index})$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Reset the transition iterator for a given channel"
+	},
+	{
+		 "text": "trs_get_before",
+		 "context":"Decoder",
+		 "snippet": "trs_get_before(${1:channel_index},${2:target_sample})$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Positions the iterator at the nearest transition before a target sample"
+	},
+	{
+		 "text": "trs_get_next",
+		 "context":"Decoder",
+		 "snippet": "trs_get_next(${1:channel_index})$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Returns the next transition"
+	},
+	{
+		 "text": "trs_get_previous",
+		 "context":"Decoder",
+		 "snippet": "trs_get_previous(${1:channel_index})$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Returns the previous transition"
+	},
+	{
+		 "text": "trs_is_not_last",
+		 "context":"Decoder",
+		 "snippet": "trs_is_not_last(${1:channel_index})$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Returns true of the iterator did not reach the last available transition."
+	},
+	{
+		 "text": "bit_sampler_init",
+		 "context":"Decoder",
+		 "snippet": "bit_sampler_init(${1:channel_index},${2:start_sample_index},${3:samples_increment})$4",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Initializes the bit sampler"
+	},
+	{
+		 "text": "bit_sampler_next",
+		 "context":"Decoder",
+		 "snippet": "bit_sampler_next(${1:channel_index})$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Returns the value of the next bit"
+	},
+	{
+		 "text": "dec_item_new",
+		 "context":"Decoder",
+		 "snippet": "dec_item_new(${1:channel_index},${2:start_sample},${3:end_sample})$4",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Starts a new decoder item and returns 1 on success, error code otherwize."
+	},
+	{
+		 "text": "dec_item_end",
+		 "context":"Decoder",
+		 "snippet": "dec_item_end()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Ends the previously started decoder item"
+	},
+	{
+		 "text": "dec_item_add_sample_point",
+		 "context":"Decoder",
+		 "snippet": "dec_item_add_sample_point(${1:sample_index},\"${2:drawing}\")$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Adds sample points to a decoder item"
+	},
+	{
+		 "text": "dec_item_add_content",
+		 "context":"Decoder",
+		 "snippet": "dec_item_add_content(\"${1:content}\")$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Add content to a decoder item"
+	},
+	{
+		 "text": "dec_item_emphasize_success",
+		 "context":"Decoder",
+		 "snippet": "dec_item_emphasize_success()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Mark this decoder item in a 'success' color"
+	},
+	{
+		 "text": "dec_item_emphasize_warning",
+		 "context":"Decoder",
+		 "snippet": "dec_item_emphasize_warning()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Mark this decoder item in a 'warning' color"
+	},
+	{
+		 "text": "dec_item_emphasize_error",
+		 "context":"Decoder",
+		 "snippet": "dec_item_emphasize_error()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Mark this decoder item in an 'error' color"
+	},
+	{
+		 "text": "hex_view_add_byte",
+		 "context":"Decoder",
+		 "snippet": "hex_view_add_byte(${1:channel_index},${2:start_sample},${3:end_sample},${4:data_byte})$5",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Add new byte to the HEX view"
+	},
+	{
+		 "text": "packet_view_add_packet",
+		 "context":"Decoder",
+		 "snippet": "packet_view_add_packet(${1:root},${2:ch},${3:start_sample},${4:end_sample},\"${5:title}\",\"${6:content}\",\"${7:title_bg_html_color}\",\"${8:content_bg_html_color}\")$9",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Add new packet to the packet view"
+	},
+	{
+		 "text": "get_channel_color",
+		 "context":"Decoder",
+		 "snippet": "get_channel_color(${1:channel_index})$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Returns the color of a channel, as it's defined in ScanaStudio workspacce."
+	},
+	{
+		 "text": "flexitrig_append",
+		 "context":"Trigger",
+		 "snippet": "flexitrig_append(\"${1:step_description}\",${2:t_min},${3:t_max})$4",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/script-trigger-sequence/",
+		 "description": "Append new trigger step"
+	},
+	{
+		 "text": "flexitrig_print_steps",
+		 "context":"Trigger",
+		 "snippet": "flexitrig_print_steps()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/script-trigger-sequence/",
+		 "description": "Print the trigger steps in ScanaStudio console (for debug purposes)"
+	},
+	{
+		 "text": "decoder_gui_get_value",
+		 "context":"Trigger",
+		 "snippet": "decoder_gui_get_value(\"${1:id}\")$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/script-trigger-sequence/",
+		 "description": "Get the value of a GUI item from the protocol decoder GUI."
+	},
+	{
+		 "text": "flexitrig_gui_get_value",
+		 "context":"Trigger",
+		 "snippet": "flexitrig_gui_get_value(\"${1:id}\")$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/script-trigger-sequence/",
+		 "description": "Similar to \"gui_get_value()\""
+	},
+	{
+		 "text": "load_builder_object",
+		 "context":"Signal builder",
+		 "snippet": "load_builder_object(\"${1:script_file_name}\")$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/script-signal-builder/",
+		 "description": "Loads a builder object from another script"
+	},
+	{
+		 "text": "builder_add_samples",
+		 "context":"Signal builder",
+		 "snippet": "builder_add_samples(${1:channel_index},${2:logic_level},${3:samples_count})$4",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/script-signal-builder/",
+		 "description": "Add samples to the workspace"
+	},
+	{
+		 "text": "builder_add_cycles",
+		 "context":"Signal builder",
+		 "snippet": "builder_add_cycles(${1:channel_index},${2:duty_cycle},${3:samples_per_cycle},${4:cycles_count})$5",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/script-signal-builder/",
+		 "description": "Adds cycles to the workspace (cycle = Logic High period followed by Logic Low period)."
+	},
+	{
+		 "text": "builder_get_samples_acc",
+		 "context":"Signal builder",
+		 "snippet": "builder_get_samples_acc(${1:channel_index})$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/script-signal-builder/",
+		 "description": "Return the number of added (built) samples for a channel"
+	},
+	{
+		 "text": "builder_get_sample_rate",
+		 "context":"Signal builder",
+		 "snippet": "builder_get_sample_rate()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/script-signal-builder/",
+		 "description": "Return the current sampling rate of the workspace"
+	},
+	{
+		 "text": "builder_get_maximum_samples_count",
+		 "context":"Signal builder",
+		 "snippet": "builder_get_maximum_samples_count()$1",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/script-signal-builder/",
+		 "description": "Return the maximum number of samples that can be built"
+	}
+]
