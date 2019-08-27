@@ -18,5 +18,20 @@
     "text":"Content",
     "prefix":"ScanaStudio.PacketColors.Wrap|Head|Preamble|Data|Misc|Check|Error.",
     "description":"Standardized color for packet content"
+  },
+  {
+    "text":"PacketMaxWidth",
+    "prefix":"ScanaStudio.",
+    "description":"Returns information about the maximum width of packet title and content boxes in the PacketView"
+  },
+  {
+    "text":"Title",
+    "prefix":"ScanaStudio.PacketMaxWidth.",
+    "description":"Returns the maximum width (in characters) of the title box in the PacketView"
+  },
+  {
+    "text":"Content",
+    "prefix":"ScanaStudio.PacketMaxWidth.",
+    "description":"Returns the maximum width (in characters) of the content box in the PacketView"
   }
 ]
