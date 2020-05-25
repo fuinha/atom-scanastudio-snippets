@@ -349,9 +349,9 @@
 		 "description": "Returns the value of the next bit"
 	},
 	{
-		 "text": "decoder_result_t sync_decode",
+		 "text": "sync_decode",
 		 "context":"Decoder",
-		 "snippet": "decoder_result_t sync_decode(${1:clock_channel},${2:data_channels},${3:clock_start_sample},${4:clock_polarity},${5:msb_first},${6:bits_per_word},${7:bits_interleaving},${8:clk_skip},${9:word_end_sample})$10",
+		 "snippet": "sync_decode(${1:clock_channel},${2:data_channels},${3:clock_start_sample},${4:clock_polarity},${5:msb_first},${6:bits_per_word},${7:bits_interleaving},${8:clk_skip},${9:word_end_sample})$10",
 		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
 		 "description": "Return the value of the synchronous word formed by the next 'bits_per_word' bits."
 	},
