@@ -486,7 +486,7 @@
 		 "context":"Trigger",
 		 "snippet": "flexitrig_gui_get_value(\"${1:id}\")$2",
 		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/script-trigger-sequence/",
-		 "description": "Similar to \\"gui_get_value()\\""
+		 "description": "Similar to \"gui_get_value()\""
 	},
 	{
 		 "text": "load_builder_object",
