@@ -419,6 +419,48 @@
 		 "description": "Returns the color of a channel, as it's defined in ScanaStudio workspacce."
 	},
 	{
+		 "text": "vac_create_channel",
+		 "context":"Decoder",
+		 "snippet": "vac_create_channel(${1:vac_id},\"${2:unit}\",\"${3:html_color}\",\"${4:default_label}\")$5",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Create a new Virtual Analog Channel (VAC). If the channel already exists, it's cleared and it's parameters are replaced. vac_id must be a unique number for each channel."
+	},
+	{
+		 "text": "vac_remove_channel",
+		 "context":"Decoder",
+		 "snippet": "vac_remove_channel(${1:vac_id})$2",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Remove a VAC channel. If the channel does not exist, this function is ignored."
+	},
+	{
+		 "text": "vac_append_sample",
+		 "context":"Decoder",
+		 "snippet": "vac_append_sample(${1:vac_id},${2:sample},${3:value})$4",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Append a new sample to the Virtual Analog Channel (VAC) whose ID is vac_id. Value can be a decimal or floating point value."
+	},
+	{
+		 "text": "vac_set_color",
+		 "context":"Decoder",
+		 "snippet": "vac_set_color(${1:vac_id},\"${2:html_color}\")$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Change the color the Virtual Analog Channel (VAC). Example HTML color is "#FF0000" for red."
+	},
+	{
+		 "text": "vac_set_size",
+		 "context":"Decoder",
+		 "snippet": "vac_set_size(${1:vac_id},${2:size_factor})$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Change the horizontal size of the Virtual Analog Channel (VAC), which by default is 1. the size is expressed in number of slots. Each slot is equivalent to the size of standard logic channel. A VAC with a size of 2 would occupy the size of two logic channels. Minimum value is 1, maximum is 5."
+	},
+	{
+		 "text": "vac_set_unit",
+		 "context":"Decoder",
+		 "snippet": "vac_set_unit(${1:vac_id},\"${2:unit}\")$3",
+		 "descriptionMoreURL": "http://dev-test-2019.ikalogic.com/kb/scripting/protocol-analyze-decode/",
+		 "description": "Change the displayed unit the Virtual Analog Channel (VAC)."
+	},
+	{
 		 "text": "flexitrig_append",
 		 "context":"Trigger",
 		 "snippet": "flexitrig_append(\"${1:step_description}\",${2:t_min},${3:t_max})$4",
